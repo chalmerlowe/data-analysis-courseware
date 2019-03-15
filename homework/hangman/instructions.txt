@@ -1,0 +1,49 @@
+HANGMAN:
+We will create a game of hangman:
+
+Select a word to be used as the puzzle.
+Assign a label to that word so you can refer to it through out the game. 
+Display a series of underscores on the screen with the same number
+of underscores as the length of the word.
+Also display seven dots on the screen to the right of the underscores.
+Invite your user to input a letter
+
+For example, if the word was:
+"darklord", then you would display to start (eight underscores, seven dots): 
+
+________ .......
+Please guess a letter: 
+
+Test whether the letter appears in the secret word.
+IF the letter is in the secret word, replace any underscores with that letter
+and redisplay the results to the screen. For example, if the user picked "d",
+then you would display:
+
+d______d .......
+Please guess a letter: 
+
+IF the letter is not in the secret word, replace a dot in the sequence of dots 
+with that letter (starting from the left side). For example, if the user now
+picked "q", then you would display:
+
+d______d q......
+Please guess a letter: 
+
+IF the user gets the word correct, display a "Congratulations!" message and end
+the game.
+
+IF the user fills all the dots, immediately end the game, with a "Try again!"
+message.
+
+BONUS TASKS:
+* add normalization in case the user types in upper case versus lower case...
+* give the player the option to play the game again at the end
+* if you add the option to play again, use a list to store four words and
+    cycle through the words so the player is not guessing the same
+    word over and over. 
+* give a player an option to enter the word to be guessed by a second player
+
+Store your results in the folder in your Jupyter Hub class:
+karen/homework/hangman
+
+A copy of these instructions are in that folder in the text file called instructions.txt 
