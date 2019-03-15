@@ -35,6 +35,12 @@ the game.
 IF the user fills all the dots, immediately end the game, with a "Try again!"
 message.
 
+POST YOUR RESULTS:
+Store your results in this folder in your Jupyter Hub class:
+karen/homework/hangman
+
+A copy of these instructions are in that folder in the text file called instructions.txt 
+
 BONUS TASKS:
 * add normalization in case the user types in upper case versus lower case...
 * give the player the option to play the game again at the end
@@ -43,7 +49,3 @@ BONUS TASKS:
     word over and over. 
 * give a player an option to enter the word to be guessed by a second player
 
-Store your results in the folder in your Jupyter Hub class:
-karen/homework/hangman
-
-A copy of these instructions are in that folder in the text file called instructions.txt 
