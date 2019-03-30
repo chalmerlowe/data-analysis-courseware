@@ -1,0 +1,71 @@
+HANGMAN II:
+We will create a game of hangman:
+
+To complete the following, you will need to research the random module that
+comes with Python (as part of the Standard Library).
+One or more methods in the random module can be used to help select an item 
+randomly.
+
+Most of the mechanics of the game will be very similar and are outlined below.
+These items are new to this homework:
+* You will read in words from the words.txt file found in the same folder as
+  these instructions.
+* At the beginning of the first game, your game should randomly pick any word
+  from the words you read in.
+* You will create an unending loop so that when the games ends in a win OR
+  a loss, the game will ask the player: "Play again? (y/n)" and will start the 
+  game over again if they enter a "y" character OR will break out of the 
+  never ending loop and end the game if they enter an "n" character
+
+The main rules of the game are as follows, with only slightly minor variation
+from the rules we had in our previous homework:
+
+Randomly select a word to be used as the puzzle.
+Assign a label to that word so you can refer to it through out the game. 
+
+Display a series of underscores on the screen with the same number
+of underscores as the length of the word.
+Also display seven dots on the screen to the right of the underscores.
+Invite your user to input a letter
+
+For example, if the word was:
+"darklord", then you would display to start (eight underscores, seven dots): 
+
+________ .......
+Please guess a letter: 
+
+Test whether the letter appears in the secret word.
+IF the letter is in the secret word, replace any underscores with that letter
+and redisplay the results to the screen. For example, if the user picked "d",
+then you would display:
+
+d______d .......
+Please guess a letter: 
+
+IF the letter is not in the secret word, replace a dot in the sequence of dots 
+with that letter (starting from the left side). For example, if the user now
+picked "q", then you would display:
+
+d______d q......
+Please guess a letter: 
+
+IF the user gets the word correct, display a "Congratulations!" message and ask
+them if they want to play the game again.
+
+IF the user fills all the dots, immediately end the game, with a "Try again!"
+message and ask them if they want to continue the game.
+
+Based on whether they answer "y" OR "n", continue OR end the game respectively.
+
+POST YOUR RESULTS:
+Store your results in this folder in your Jupyter Hub class:
+karen/homework/hangman_ii
+
+A copy of these instructions are in that folder in the text file called instructions.txt
+
+
+BONUS TASKS:
+* add normalization in case the user types in upper case versus lower case...
+* give a player an option to enter the word to be guessed by a second player
+
+ 

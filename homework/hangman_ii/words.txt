@@ -1,0 +1,10 @@
+python
+import
+range
+with
+open
+function
+while
+input
+print
+random
