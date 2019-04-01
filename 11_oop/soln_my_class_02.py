@@ -1,15 +1,15 @@
 # * Create a class called `Car`
-# * Define an `__init__()` method that takes a two parameters and assigns them to `color` and `mpg` (miles per gallon) attributes respectively
-# * Define a method called `set_color` that takes in a parameter and assigns that to `color`
-# * Define a method called `print_specs` that prints the values associatd with `color` and `mpg`
-# * Create an object based on your class.
+# * Define an `__init__()` method that takes two additional parameters (besides `self`) and assigns them to `self.color` and `self.mpg` (miles per gallon) attributes respectively
+# * Define a method called `change_color` that takes in two arguments (`self` and `color`) and assigns that to `self.color`
+# * Define a method called `print_specs` that prints the values associated with `color` and `mpg`
+# * Create an object called `sportscar`, based on your `Car` class, and pass in two arguments: a `string` for the color and an `integer` for the miles per gallon.
 
 class Car:
     def __init__(self, color, mpg):
         self.color = color
         self.mpg = mpg
         
-    def set_color(self, color):
+    def change_color(self, color):
         self.color = color
     
     def print_specs(self):
