@@ -1,0 +1,32 @@
+Homework: 
+
+You will create a blog article class (a blueprint)
+Your class will allow you to store data related specifically to a single article.
+
+To accomplish the tasks below, you will also need to research the datetime library to determine how to create a datetime timestamp (a string).
+
+Your class should include the following attributes:
+* .author
+* .title
+* .content       # the text of the article
+* .datetime      # the date and time the article was published
+* .tags     
+* .status        # draft, published
+
+
+Your class should include the following behaviors:
+* .set_author()         # set the author
+* .set_title()          # set the title of the article
+* .set_content()        # set the content (i.e. a string of text)
+* .set_publish_date()   # create a datetime object and store the string representation of that datetime
+* .set_tags()           # create a set of tags (store them in a list)
+* .set_status()         # set the status to either 'Draft' OR 'Published'
+
+Once you have made your class, create two blog articles and store them in a list.
+
+Parse through the articles in the list and print the attributes for each article to the screen.
+
+
+
+  
+  

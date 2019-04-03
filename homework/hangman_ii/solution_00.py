@@ -26,7 +26,6 @@ def replay():
 
 answer = char_generator(len(WORD))
 guesses = char_generator(ALLOWED_GUESSES, char='.')
-
 guess_count = 0
 
 while True:
