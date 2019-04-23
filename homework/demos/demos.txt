@@ -1,0 +1,30 @@
+Schedule:
+Apr 25
+* artist_01: df.sort_values()
+* artist_02: df.describe()
+* artist_03: df.nlargest()
+
+May 9
+* artist_04: df.quantile()
+* artist_05: df.astype()
+* artist_07: df.isin()
+* artist_11: df.clip()
+
+Desired outcomes:
+
+* learn something new about your method OR function
+* share what you have learned in about five minutes
+* practice the process of researching for understanding versus the "getting a quick answer"
+
+Expections:
+* provide us with the syntax and arguments available. for example, here are the
+  syntax and arguments available for print():
+
+  print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+* provide some information about the most important or most used arguments 
+  so that we have a good sense of how/when you might use those arguments
+  
+* provide some code examples showing that method/attribute in use so we can see what happens when you use that method OR function
+
+If you have questions, please let me know.
