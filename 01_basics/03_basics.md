@@ -540,7 +540,6 @@ int(41.95)
 int(-41.95)
 ```
 
-
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## float()
 
