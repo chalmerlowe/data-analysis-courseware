@@ -525,7 +525,7 @@ int(a)
 ```
 
 <!-- #region slideshow={"slide_type": "fragment"} -->
-The `int()` function will truncate decimal numbers down.
+The `int()` function will truncate decimal numbers towards zero (down for positive numbers, but up for negative numbers).
 <!-- #endregion -->
 
 ```python slideshow={"slide_type": "fragment"}
@@ -535,6 +535,11 @@ int(42.11)
 ```python slideshow={"slide_type": "fragment"}
 int(41.95)
 ```
+
+```python slideshow={"slide_type": "fragment"}
+int(-41.95)
+```
+
 
 <!-- #region slideshow={"slide_type": "slide"} -->
 ## float()
